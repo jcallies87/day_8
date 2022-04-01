@@ -5,7 +5,8 @@ class Shopping_Cart:
         self.product_price = ()
         
     def add_amount(self):
-        self.calculate_total= sum(self.product_price)
+        price_list = Product
+        self.calculate_total= sum(price_list)
         return self.calculate_total
 
     def add_new_product(self):

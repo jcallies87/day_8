@@ -7,8 +7,21 @@
 # print(clock_one.alarm_clock_alarm)
 
 from customer import Customer
-
+from shopping_cart import Shopping_Cart
 from product import Product
 
 customer_one = Customer("Fred")
-print(customer_one)
+
+product_one = Product("milk", 3.50, "Grocery")
+
+product_two = Product("boots", 90 , "Clothing")
+
+product_three = Product ("Rubber Chicken", 10, "Pets")
+
+customer_one.add_product()
+customer_one.add_product()
+customer_one.add_product()
+customer_one.view_shopping_cart()
+customer_cart = Shopping_Cart
+customer_cart.add_amount()
+print(customer_one.customer_name)
